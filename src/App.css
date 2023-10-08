@@ -1,0 +1,35 @@
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    background-color: rgba(79, 222, 215, 0.341);
+}
+
+.card{
+    width: 18rem;
+}
+.product{
+    width: 16rem;
+}
+.product img{
+    height: 250px;
+    object-fit: contain;
+}
+#weather-logo{
+    right: 0;
+}
+a{
+    cursor: pointer;
+}
+a:hover{
+    transform: scale(1.02);
+}
+
+@media (max-width:430px) {
+    #weather-logo{
+        display: none;
+    }
+}
+
